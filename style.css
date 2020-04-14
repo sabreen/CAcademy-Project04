@@ -58,9 +58,9 @@ body > doctype > header > div > ul > li:nth-child(3) > a > i:hover{
 }
 
 /****************** Main *****************/
-.main-img > img{
+/*.main-img > img{
   margin-top: 100px;
-}
+}*/
 .main-img > img , .search-box > input {
   display: block;
   margin-left: auto;
