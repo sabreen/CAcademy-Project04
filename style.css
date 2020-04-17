@@ -56,15 +56,24 @@ body > doctype > header > div > ul > li:nth-child(3) > a > i:hover{
   font-size: 13px;
   font-weight: bold;
 }
-
+body > doctype > header > div > ul > li:nth-child(4):hover{
+  opacity: 1;
+}
+.sign-in-button:hover{
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
 /****************** Main *****************/
-/*.main-img > img{
-  margin-top: 100px;
-}*/
+.main-img {
+  margin-top: 47px;
+  height: 33.5%;
+}
 .main-img > img , .search-box > input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.main-img:hover{
+  cursor: pointer;
 }
 /********** Search Box *****************/
 .search-box{
